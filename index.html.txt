@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Білім сайты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Білім сайты</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Математика</a></li>
+                <li><a href="#">Оқу сауаттылығы</a></li>
+                <li><a href="#">Басқатырғыш</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Бұл сайтта білім беру ойындары болады!</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

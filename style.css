@@ -1,0 +1,116 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #87CEFA, #ffffff);
+}
+
+.container {
+    background: #ffeb99;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid #ffcc00;
+}
+
+h1 {
+    font-size: 26px;
+    color: #ff6600;
+    text-shadow: 2px 2px #fff;
+}
+
+#task {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+#answerDisplay {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #009900;
+}
+
+.number-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: auto;
+    max-width: 220px;
+}
+
+button {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.number-pad button {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.number-pad button:active {
+    background-color: #ffaa00;
+}
+
+.check-btn {
+    background-color: #66cc66;
+    color: white;
+}
+
+.check-btn:active {
+    background-color: #44aa44;
+}
+
+.clear-btn {
+    background-color: #ff4444;
+    color: white;
+}
+
+.clear-btn:active {
+    background-color: #cc0000;
+}
+
+.levels button {
+    background-color: #ff6600;
+    color: white;
+    margin: 5px;
+    padding: 12px;
+}
+
+.levels button:hover {
+    background-color: #ff4500;
+}
+
+#feedback {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#nextTask {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+#nextTask:hover {
+    background-color: #1e7e34;
+}
